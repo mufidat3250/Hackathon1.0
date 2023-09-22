@@ -5,6 +5,8 @@ import Stars from "./atom/vectors/Stars";
 import Home from "./organisms/Home";
 import Introduction from "./organisms/Introduction";
 import Rules from "./organisms/Rules";
+import Criterials from "./organisms/Criterials";
+import FAQ from "./organisms/FAQ";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Home />
         <Introduction/>
         <Rules/>
+        <Criterials/>
+        <FAQ/>
       </div>
     </div>
   );

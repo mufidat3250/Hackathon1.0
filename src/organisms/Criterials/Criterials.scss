@@ -1,0 +1,35 @@
+.criterials-wrapper{
+    @apply flex items-center  justify-center gap-[3.3125rem] py-[5.75rem] border-b-[1px]  border-t-[1px] border-t-gray-500 border-b-gray-500 h-screen; 
+
+    .instructions{
+        @apply  flex-[1] max-w-[35.5rem]; 
+        h1{
+            @apply text-white text-[2rem] font-bold mb-[1.3125rem];
+             span{
+                @apply bg-gradient-to-r from-[#FE34B9] to-[#903AFF] bg-clip-text text-transparent;
+             }
+        }
+        p{
+            @apply text-white mb-[1.6875rem] text-sm;
+            strong{
+                @apply bg-gradient-to-r from-[#FE34B9] to-[#903AFF] bg-clip-text text-transparent;
+            }
+        }
+    }
+    .criterial-img{
+        @apply  relative h-[36.687rem] ;
+
+        .white-star{
+            @apply absolute bottom-0  right-[10%];
+        }
+        .star-pu{
+            @apply absolute top-[-10%] left-[15%];
+        }
+        .star-gray{
+            @apply absolute top-[60%] right-[40%];
+        }
+    }
+
+    
+}
+

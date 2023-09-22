@@ -1,0 +1,13 @@
+.question{
+    @apply border-b-[1px] border-b-[#D434FE] pb-[0.8125rem];  
+
+    .q{
+        @apply text-[14px] w-[27rem];
+    }
+    .question-wrapper{
+        @apply  flex gap-[2rem] items-center;
+    }
+    .plus{
+        @apply text-[#D434FE] text-xl cursor-pointer;
+    }
+}

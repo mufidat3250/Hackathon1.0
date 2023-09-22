@@ -1,0 +1,48 @@
+.FAQ-wrapper{
+    @apply flex justify-center items-center h-[80vh] pt-64 gap-[2rem] relative pb-12;
+
+    .FAQ{
+        @apply relative;
+        h1{
+            @apply text-white text-[2rem] font-bold;
+        }
+        .linear{
+            @apply bg-clip-text bg-gradient-to-r from-[#FE34B9] text-transparent to-[#903AFF];
+        }
+        .we-got{
+            @apply text-white text-sm mb-[4.25rem] max-w-[20.1875rem];
+        }
+        .questions-answer{
+            @apply flex flex-col gap-6 text-white;
+        }
+        .star-pu{
+            @apply absolute top-0 left-[-12%];
+        }
+    }
+    .star-gray{
+        @apply absolute;
+    }
+    .cwok-container{
+        @apply relative;
+
+        .question-mark1{
+            @apply absolute top-[-0%] left-[15%];
+        }
+        .question-mark2{
+            @apply absolute top-[-5%] left-[35%];
+        }
+        .question-mark3{
+            @apply absolute top-[-1%] right-[35%];
+        }
+        .star-sata1{
+            @apply absolute top-0 right-[45%] w-[21px] h-[25px];
+        }
+        .star-sata2{
+            @apply absolute  top-[20%] left-[22%] w-[21px] h-[25px];
+        }
+        .white-star{
+            @apply absolute bottom-0 right-0;
+        }
+    }
+
+}
