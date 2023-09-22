@@ -1,0 +1,29 @@
+.Rule{
+    @apply flex justify-center items-center gap-12 relative border-t-[1px] border-t-gray-500 mt-[4.5rem];
+    .rules-contents{
+        @apply relative;
+
+        h1{
+            @apply text-white text-[2rem] font-bold;
+            .guideline{
+                @apply bg-clip-text bg-gradient-to-r from-[#FE34B9] text-transparent to-[#903AFF];
+            }
+        }
+        p{
+            @apply text-white max-w-[33.3rem] text-justify mt-4;
+        }
+        .star-pu{
+            @apply absolute top-[-1rem] left-[50%];
+        }
+    }
+    .purple-len{
+        @apply absolute left-[10%] top-0;
+    }
+    .purple-left{
+        @apply absolute left-[50rem];
+    }
+    .star-white{
+        @apply  absolute top-[75%] left-[50%];
+    }
+
+}

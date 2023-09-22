@@ -4,6 +4,7 @@ import NavBar from "./atom/NavBar";
 import Stars from "./atom/vectors/Stars";
 import Home from "./organisms/Home";
 import Introduction from "./organisms/Introduction";
+import Rules from "./organisms/Rules";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <div className="nav-content">
         <Home />
         <Introduction/>
+        <Rules/>
       </div>
     </div>
   );
