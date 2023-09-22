@@ -1,0 +1,49 @@
+.navbarWrapper{
+    @apply flex justify-between items-center px-12 xl:px-32 pt-16 pb-[1.5625rem] border-b-[1px] border-gray-600 relative;
+}
+.logo-wrapper{
+    @apply cursor-pointer;
+
+    img{
+        @apply w-full h-full;
+    }
+}
+
+.btn-tab-wrapper{
+    @apply flex justify-center items-center lg:gap-[10rem]  xl:gap-[13.875rem];
+
+    .tabs{
+        @apply  hidden lg:flex lg:gap-[2rem] xl:gap-[3.5rem] text-white;
+        
+        .tab{
+            @apply cursor-pointer;
+        }
+    }
+
+    .btn{
+        @apply w-[10.75rem] hidden lg:block;
+    }
+    .menu{
+        @apply lg:hidden;
+    }    
+}
+.tabs-mobile-wrapper{
+    @apply bg-[#150E28] flex flex-col md:hidden absolute top-0 w-full text-white right-0 h-screen pl-[2.9375rem];
+
+    .tabs-wrapper{
+        @apply mt-[3.5625rem] flex  flex-col gap-[1.25rem] text-lg font-[500];
+        .tab{
+            @apply cursor-pointer;
+        }
+    }
+    .closeIcon{
+        @apply mt-[2.4375rem] w-[1.4375rem] self-end mr-[3.1875rem];
+    }
+    .btn-mobile{
+        @apply w-[10.75rem] rounded-[4px] mt-[1.8125rem] lg:hidden;
+    }
+    
+}
+
+
+

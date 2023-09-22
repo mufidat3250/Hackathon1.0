@@ -1,0 +1,27 @@
+.introduction-wrapper{
+    @apply flex mt-[3.875rem] justify-center items-center gap-[6.625rem] border-b-[1px] border-b-gray-500 pb-[4.5rem];
+.intro-content{
+    @apply relative;
+    h1{
+        @apply  text-[2rem] text-white;
+        .tech{
+            @apply bg-gradient-to-r from-[#FE34B9] to-[#903AFF] bg-clip-text text-transparent; 
+        }
+    }
+    p{
+        @apply text-white text-base max-w-[34rem] mt-4;
+    }
+    .star-pu{
+        @apply absolute top-0 right-0;
+    }
+} 
+.big-idea-img{
+    @apply  relative;
+    .star-sata{
+        @apply  absolute top-[31%] left-[-3rem];
+    }
+    .arrow{
+        @apply absolute right-0 top-[90%];
+    }
+}   
+}

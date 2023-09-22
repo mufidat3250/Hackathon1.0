@@ -1,0 +1,12 @@
+.App{
+    @apply bg-[150E28] h-screen flex flex-col;   
+
+    .nav-bar{
+        @apply flex-1;
+    }
+.nav-content{
+        @apply h-screen overflow-auto;
+    }
+}
+
+

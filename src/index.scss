@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #150E28;
+}
+*{
+    box-sizing: border-box;
+}
+.star{
+        @apply w-[1.625rem] h-8;
+    }
+.nav-bar{
+    @apply bg-transparent;
+}
